@@ -40,11 +40,11 @@ export default function Home() {
           <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">Front End Developer </h3>
         </div>
         <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-        <a href="https://github.com/Jay5780" target="_blank"><BsGithub/></a>
-          <a href="https://www.linkedin.com/in/jay-singh-99538b22a" target="_blank"><AiFillLinkedin/></a> 
+        <a href="https://github.com/Jay5780" target="_blank"  rel="noreferrer"><BsGithub/></a>
+          <a href="https://www.linkedin.com/in/jay-singh-99538b22a" target="_blank"  rel="noreferrer"><AiFillLinkedin/></a> 
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96">
-        <Image src={deved} layout="fill" objectFit="cover" />
+        <Image src={deved} layout="fill" objectFit="cover" alt=""/>
         </div>
         </section>
         <section>
@@ -53,8 +53,8 @@ export default function Home() {
           </div>
           <div className="  justify-center gap-10">
             <div className="text-center justify-center  shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <a href="https://jay5780.github.io/Recipe_App/" target="_blank" >
-              <Image className="mx-auto mb-3 rounded-lg" src={recipe}  />
+              <a href="https://jay5780.github.io/Recipe_App/" target="_blank"  rel="noreferrer" >
+              <Image className="mx-auto mb-3 rounded-lg" src={recipe} alt="" />
               <h3 className="  md:text-3xl  font-bold pt-4 pb-2">Recipe App : deliciouss</h3>
               </a>
               <p className="text-gray-1100 py-1  md:text-lg font-medium">User can search for ingridients and process to make
@@ -66,13 +66,13 @@ export default function Home() {
               <p className="text-gray-800 py-1 md:text-lg font-medium">Tailwind CSS</p>
               <p className="text-gray-800 py-1 md:text-lg font-medium">HTML</p>
               <p className="text-gray-800 py-1 md:text-lg font-medium">API : spoonacular</p>
-              <a href="https://github.com/Jay5780/Recipe_App"  target="_blank" ><BsGithub className=' md:text-3xl'/></a>
+              <a href="https://github.com/Jay5780/Recipe_App"  target="_blank"  rel="noreferrer" ><BsGithub className=' md:text-3xl'/></a>
               </div>
             </div>
              
             <div className="text-center justify-center  shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <a href="https://jay5780.github.io/Shopping_Cart/" target="_blank" >
-              <Image className="mx-auto mb-3 rounded-lg" src={shoppingcart}  />
+              <a href="https://jay5780.github.io/Shopping_Cart/" target="_blank"  rel="noreferrer">
+              <Image className="mx-auto mb-3 rounded-lg" src={shoppingcart} alt="" />
               <h3 className="  md:text-3xl  font-bold pt-4 pb-2">Shopping Cart </h3>
               </a>
               <p className="text-gray-1100 py-1  md:text-lg font-medium">User can add products to cart and remove from it . </p>
@@ -82,13 +82,13 @@ export default function Home() {
               <p className="text-gray-800 py-1 md:text-lg font-medium">Redux Toolkit</p>
               <p className="text-gray-800 py-1 md:text-lg font-medium">TypeScript</p>
               <p className="text-gray-800 py-1 md:text-lg font-medium">BootStrap</p>
-              <a href="https://github.com/Jay5780/Shopping_Cart"  target="_blank" ><BsGithub className=' md:text-3xl'/></a>
+              <a href="https://github.com/Jay5780/Shopping_Cart"  target="_blank"  rel="noreferrer"><BsGithub className=' md:text-3xl'/></a>
               </div>
             </div>
 
             <div className="text-center justify-center  shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <a href="https://jay5780.github.io/RealTime_WeatherAPP.github.io/" target="_blank" >
-              <Image className="mx-auto mb-3 rounded-lg" src={weather}  />
+              <a href="https://jay5780.github.io/RealTime_WeatherAPP.github.io/" target="_blank"  rel="noreferrer" >
+              <Image className="mx-auto mb-3 rounded-lg" src={weather} alt="" />
               <h3 className="  md:text-3xl  font-bold pt-4 pb-2">Real Time Weather App</h3>
               </a>
               <p className="text-gray-1100 py-1  md:text-lg font-medium">User can search real time weather conditions of any city . </p>
@@ -98,13 +98,13 @@ export default function Home() {
               <p className="text-gray-800 py-1 md:text-lg font-medium">HTML</p>
               <p className="text-gray-800 py-1 md:text-lg font-medium">CSS</p>
               <p className="text-gray-800 py-1 md:text-lg font-medium">API : openweathermap</p>
-              <a href="https://github.com/Jay5780/RealTime_WeatherAPP.github.io"  target="_blank" ><BsGithub className=' md:text-3xl'/></a>
+              <a href="https://github.com/Jay5780/RealTime_WeatherAPP.github.io"  target="_blank"  rel="noreferrer"><BsGithub className=' md:text-3xl'/></a>
               </div>
             </div>
              
             <div className="text-center justify-center  shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <a href="https://jay5780.github.io/RealTime_WeatherAPP.github.io/" target="_blank" >
-              <Image className="mx-auto mb-3 rounded-lg" src={indeedScraper}  />
+              <a href="https://jay5780.github.io/RealTime_WeatherAPP.github.io/" target="_blank"  rel="noreferrer">
+              <Image className="mx-auto mb-3 rounded-lg" src={indeedScraper} alt="" />
               <h3 className="  md:text-3xl  font-bold pt-4 pb-2">Indeed Job Scraper</h3>
               </a>
               <p className="text-gray-1100 py-1  md:text-lg font-medium">Program scrapes a particular job title from given number of pages. </p>
@@ -112,7 +112,7 @@ export default function Home() {
               <div className='flex justify-center gap-3 md:gap-10'>
               <p className="text-gray-800 py-1 md:text-lg font-medium">Python</p>
               <p className="text-gray-800 py-1 md:text-lg font-medium">Selenium</p>
-              <a href="https://github.com/Jay5780/Indeed_Job_Scraper"  target="_blank" ><BsGithub className=' md:text-3xl'/></a>
+              <a href="https://github.com/Jay5780/Indeed_Job_Scraper"  target="_blank" rel="noreferrer" ><BsGithub className=' md:text-3xl'/></a>
               </div>
             </div>
 
