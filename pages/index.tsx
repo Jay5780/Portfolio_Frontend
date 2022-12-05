@@ -7,7 +7,7 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import weather from "../public/weather.png";
 import recipe from "../public/recipe.png";
-import indeedScraper from "../public/indeedScraper.png";
+import indeedScraper from "../public/IndeedScraper.png";
 import consulting  from "../public/consulting.png";
 import shoppingcart  from "../public/shoppingcart.png"  
 import {useState } from "react";
